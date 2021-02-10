@@ -45,9 +45,11 @@ block.onclick = changeColor;
 
 function convertTemp(){
     //Calculate the temperature here
-
+    tempC = (document.getElementById('f-input').value - 32) * (5/9)
     //Send the calculated temperature to HTML
-
+    const span = document.getElementById('c-output');
+    span.textContent = tempC;
 }
-
+const button = document.getElementById('convertbtn');
+button.addEventListener('click', convertTemp);
 
