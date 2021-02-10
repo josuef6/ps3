@@ -28,7 +28,8 @@ function changeColor(){
 
     }
 }
-block.addEventListener('click', changeColor);
+block.onclick = changeColor;
+// block.addEventListener('click', changeColor);
 
 /*
 * For excercise 2, you need to write an event handler for the button id "convertbtn"
