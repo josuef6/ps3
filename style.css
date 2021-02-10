@@ -9,6 +9,9 @@ body{
     height: 200px;
     background-color: #F08080;
 }
+#color-block.newColor{
+    background-color: #A2BCDD;
+}
 
 #center-text{
     padding-top: 95px;
